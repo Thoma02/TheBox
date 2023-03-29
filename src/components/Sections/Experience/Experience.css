@@ -111,3 +111,14 @@
     bottom: -30px;
 }
 
+.stats-text {
+    display: flex;
+    gap: 9px;
+}
+
+.orange-line {
+    height: 21px;
+    width: 5px;
+    background-color: #F9995D;
+}
+
