@@ -4,6 +4,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 175px 565px 174px 82px;
+    overflow: hidden;
 }
 
 #feature-projects {

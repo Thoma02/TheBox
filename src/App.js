@@ -4,6 +4,7 @@ import OurMission from './components/Sections/OurMission/OurMission';
 import OurReputation from './components/Sections/OurReputation/OurReputation';
 import AboutUs from './components/Sections/AboutUs/AboutUs';
 import Services from './components/Sections/Services/Services';
+import Experience from './components/Sections/Experience/Experience';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <OurReputation />
       <AboutUs />
       <Services />
+      <Experience />
     </>
   );
 }
