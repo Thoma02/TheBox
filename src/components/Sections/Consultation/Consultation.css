@@ -1,0 +1,33 @@
+#consultation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../../../../public/Assets/Sections/Consultation/background-contact.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 73px 117px 73px 82px;
+    color: #fff;
+}
+
+#consultation h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+#consultation p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#consultation p a {
+    color: #fff;
+}
+
+#consultation button {
+    float: right;
+    padding: 12px 15px 12px 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
