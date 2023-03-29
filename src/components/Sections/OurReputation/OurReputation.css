@@ -1,0 +1,40 @@
+#our-reputation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 150px 61px 158px;
+}
+
+#our-reputation h1 {
+    margin-bottom: 36px;
+}
+
+#box-container {
+    display: flex;
+    gap: 53px;
+}
+
+.best-boxes {
+    width: 214px;
+    height: 145px;
+    border: 1px solid #E0E3EB;
+    padding: 15px 15px 29px 15px;
+}
+
+.best-boxes img {
+    margin-bottom: 14px;
+}
+
+.best-boxes h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.best-boxes p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #858EAD;
+}
+
