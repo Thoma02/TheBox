@@ -1,6 +1,8 @@
 #about-us {
     position: relative;
     padding: 54px 82px 148px 83px;
+    max-width: 1054px;
+    margin: 0 auto;
 }
 
 #our-history {
