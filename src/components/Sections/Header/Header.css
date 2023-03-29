@@ -1,0 +1,38 @@
+#header {
+    display: flex;
+    justify-content: center;
+    padding: 12px 82px;
+    gap: 347px;
+}
+
+#logo-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#logo-container span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2947A9;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: #14171F;
+    font-size: 13px;   
+    font-weight: 400;
+}
+
+#nav-links a:last-child {
+    color: #F9995D;
+}
+
