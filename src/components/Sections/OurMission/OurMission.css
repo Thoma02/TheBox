@@ -1,0 +1,60 @@
+#our-mission {
+    position: relative;
+    background-image: url("../../../../public/Assets/Sections/OurMission/hero.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 175px 565px 174px 82px;
+}
+
+#feature-projects {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    background-color: #3559C7;
+    color: #fff;
+    width: 304px;
+    height: 139px;
+}
+
+#feature-projects h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px ;
+}
+
+#feature-projects p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#project-name {
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+#buttons-container {
+    display: flex;
+}
+
+.projects-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 152px;
+    height: 29px;
+    background-color: #292E3D;
+}
+
+.white-divider {
+    height: 29px;
+    width: 1px;
+    background-color: #fff;
+}
+
+
+
