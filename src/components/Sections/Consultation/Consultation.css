@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background-image: url("../../../../public/Assets/Sections/Consultation/background-contact.svg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 73px 117px 73px 82px;
     color: #fff;

@@ -63,7 +63,7 @@ export default function Form() {
                          value={selectValue}
                          onChange={handleSelectChange}
                     >
-                        <option selected disabled>Reason for Contacting</option>
+                        <option>Reason for Contacting</option>
                         <option>Option1</option>
                         <option>Option2</option>
                         <option>Option3</option>

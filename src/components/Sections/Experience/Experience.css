@@ -37,6 +37,7 @@
     position: relative;
     width: 467px;
     height: 529px;
+    margin-bottom: 30px;
 }
 
 .stats-boxes {
@@ -48,21 +49,22 @@
 
 .stats-boxes:nth-child(1) {
     position: absolute;
-    right: 40px;
-    top: 75px;
+    right: 76px;
+    top: 80px;
     width: 205px;
     z-index: 2;
 }
 
 .stats-boxes:nth-child(2) {
     position: absolute;
-    top: 136px;
+    top: 149px;
+    left: -27px;
     width: 264px;
 }
 
 .stats-boxes:nth-child(3) {
     position: absolute;
-    top: 255px;
+    top: 270px;
     right: 120px;
     width: 202px;
     height: 114px;
@@ -120,5 +122,6 @@
     height: 21px;
     width: 5px;
     background-color: #F9995D;
+    margin-left: 16px;
 }
 
