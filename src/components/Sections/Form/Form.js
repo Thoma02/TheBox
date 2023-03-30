@@ -46,7 +46,7 @@ export default function Form() {
                             onChange={handleNameChange}
                             onBlur={handleBlur}
                         />
-                        <label for="name" style={{ display: isNameEmpty ? "inline" : "none" }}></label>
+                        <label htmlFor="name" style={{ display: isNameEmpty ? "inline" : "none" }}></label>
                     </div>
                     <div className="inputsAndLabels">
                         <input type="email" id="email" name="email" required="required" placeholder="Email"  
@@ -54,7 +54,7 @@ export default function Form() {
                             onChange={handleEmailChange}
                             onBlur={handleBlur}
                         />
-                        <label id="label-email" for="email" style={{ display: isEmailEmpty ? "inline" : "none" }}></label>
+                        <label id="label-email" htmlFor="email" style={{ display: isEmailEmpty ? "inline" : "none" }}></label>
                     </div>
                 </div>
                 <div className="input-fields">
@@ -73,7 +73,7 @@ export default function Form() {
                     <input type="text" placeholder="Phone"/>
                     <img src="./Assets/Sections/Form/vector.svg" alt=""/>
                 </div>
-                <textarea name="" id="" placeholder="Message"></textarea>
+                <textarea name="message" id="message" placeholder="Message"></textarea>
                 <p id="indicator"><span className="red">* </span>indicates a required field</p>
                 <input id="button" type="submit"/>
             </form>
