@@ -1,0 +1,88 @@
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 82px 58px;
+}
+
+#contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+#contact-info {
+    display: flex;
+    gap: 9px;
+}
+
+#contact-label {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#contact-value {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#contact-label p {
+    color: #2947A9;
+}
+
+#contact-value p {
+    color: #292E3D;
+}
+
+#logo-container-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#logo-container-footer span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2947A9;
+    font-weight: 700;
+}
+
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+#newsletter p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2947A9;
+    margin-bottom: 14px;
+}
+
+input {
+    padding: 7px 6px;
+    border: 1px solid #E0E3EB;
+}
+
+input::placeholder {
+    color: #A3AAC2;
+}
+
+input:last-child {
+    padding: 8px 17px;
+    background-color: #F9995D;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 6px;
+}
+
+#medias img {
+    margin-right: 16px;
+}
