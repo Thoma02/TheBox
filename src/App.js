@@ -9,6 +9,7 @@ import Consultation from './components/Sections/Consultation/Consultation';
 import Projects from './components/Sections/Projects/Projects';
 import Form from './components/Sections/Form/Form';
 import Footer from './components/Sections/Footer/Footer';
+import Trademark from './components/Sections/Trademark/Trademark';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Projects />
       <Form />
       <Footer />
+      <Trademark />
     </>
   );
 }
