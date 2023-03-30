@@ -1,8 +1,7 @@
 #header {
     display: flex;
-    justify-content: center;
-    padding: 12px 72px;
-    gap: 347px;
+    justify-content: space-between;
+    padding: 12px 82px;
 }
 
 #logo-container {
@@ -15,7 +14,6 @@
     font-size: 22px;
     font-weight: 700;
     color: #2947A9;
-    font-style: italic;
     font-weight: 700;
 }
 
@@ -28,7 +26,7 @@
 #nav-links a {
     text-decoration: none;
     color: #14171F;
-    font-size: 13px;   
+    font-size: 13.1712px;   
     font-weight: 400;
 }
 

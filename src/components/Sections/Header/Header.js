@@ -16,7 +16,7 @@ export default function Header() {
         <div id="header">
             <div id="logo-container">
                 <img src="./Assets/Sections/Header/logo.svg" alt=""/>
-                <span>TheBox</span>
+                <span><i>The</i>Box</span>
             </div>
             <div id="nav-links">
                 {links.map((link, index) => (

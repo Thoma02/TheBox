@@ -7,6 +7,7 @@ import Services from './components/Sections/Services/Services';
 import Experience from './components/Sections/Experience/Experience';
 import Consultation from './components/Sections/Consultation/Consultation';
 import Projects from './components/Sections/Projects/Projects';
+import Form from './components/Sections/Form/Form';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Experience />
       <Consultation />
       <Projects />
+      <Form />
     </>
   );
 }

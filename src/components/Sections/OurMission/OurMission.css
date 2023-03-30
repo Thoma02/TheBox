@@ -1,10 +1,14 @@
 #our-mission {
     position: relative;
     background-image: url("../../../../public/Assets/Sections/OurMission/hero.svg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 175px 565px 174px 82px;
     overflow: hidden;
+}
+
+#our-mission h1 {
+    font-size: 52.68px;
 }
 
 #feature-projects {
