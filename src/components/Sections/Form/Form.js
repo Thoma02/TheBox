@@ -26,10 +26,10 @@ export default function Form() {
       };
   
       const handleBlur = () => {
-        if (nameValue === "") {
+        if (!nameValue) {
             setIsNameEmpty(true);
         }
-        if (emailValue === "") {
+        if (!emailValue) {
           setIsEmailEmpty(true);
         }
         };

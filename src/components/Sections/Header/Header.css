@@ -1,7 +1,13 @@
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 12px 82px;
+    background-color: #fff;
 }
 
 #logo-container {
@@ -26,11 +32,37 @@
 #nav-links a {
     text-decoration: none;
     color: #14171F;
-    font-size: 13.1712px;   
+    font-size: 13px;   
     font-weight: 400;
 }
 
 #nav-links a:last-child {
     color: #F9995D;
+}
+
+#burger {
+    display: none;
+}
+
+#burger:hover {
+    cursor: pointer;
+}
+
+@media  screen and (max-width: 764px) {
+
+    #burger {
+        display: inline;
+    }
+
+    #nav-links {
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+
+    #header {
+        padding: 12px 32px;
+    }
 }
 

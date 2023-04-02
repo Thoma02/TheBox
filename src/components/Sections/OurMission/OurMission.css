@@ -8,7 +8,8 @@
 }
 
 #our-mission h1 {
-    font-size: 52.68px;
+    font-size: 52px;
+    line-height: 62px;
 }
 
 #feature-projects {
@@ -59,6 +60,53 @@
     height: 29px;
     width: 1px;
     background-color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+    #our-mission {
+        padding: 175px 50px 174px 82px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #our-mission {
+        padding: 175px 50px 174px;
+        text-align: center;
+    }
+
+    #feature-projects {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    #project-name {
+        margin-bottom: 55px;
+    }
+
+    #buttons-container {
+        position: absolute;
+        width: 100%;
+    }
+
+    .projects-buttons {
+        width: 49.9%;
+    }
+
+    .white-divider {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 29px;
+        width: 2px;
+        background-color: #fff;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    #project-name {
+        margin-bottom: 40px;
+    }
 }
 
 

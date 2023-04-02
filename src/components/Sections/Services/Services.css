@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     padding: 32px 148px 56px;
     background-color: #F6F8F7;
 }
@@ -16,6 +15,7 @@
 #services-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 72px;
 }
 

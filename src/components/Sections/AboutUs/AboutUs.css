@@ -1,16 +1,19 @@
 #about-us {
     position: relative;
-    padding: 54px 82px 148px 83px;
-    max-width: 1054px;
-    margin: 0 auto;
+    padding: 5.223% 7.934% 14.254% 8.046%;
+    /* width: 100%; */
+    /* padding-bottom: 15%; */
+    /* max-width: 1054px;
+    margin: 0 auto; */
 }
 
 #our-history {
     position: absolute;
-    right: 82px;
-    top: 107px;
-    width: 357px;
-    padding: 37px 44px 44px 29px;
+    right: 8%;
+    bottom: 28.64%;
+    width: 33.88%;
+    height: 54.014%;
+    padding: 3.472% 4.815% 44px 2.778%;
     background-color: #2947A9;
     color: #fff;
     box-shadow: 0px 14.6346px 17.5616px -2.92693px rgba(17, 24, 39, 0.1), 0px 5.85386px 5.85386px -2.92693px rgba(17, 24, 39, 0.04);
@@ -20,21 +23,224 @@
 #our-history h1 {
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: 27px;
+    margin-bottom: 9.68%;
 }
 
 #our-history p {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
-    margin-bottom: 53px;
+}
+
+#our-history p:first-of-type {
+    margin-bottom: 8%;
+}
+
+#our-history p:last-of-type {
+    margin-bottom: 18.99%;
 }
 
 #our-history button {
-    padding: 12px 15px;
+    padding: 4.226% 5.28%;
     background-color: #fff;
     color: #2947A9;
     border-radius: 5px;
     border: 1px solid #2947A9;
     font-size: 13px;
     font-weight: 600;
+}
+
+#about-us img {
+    width: 75.751%;
+    height: 46.446vw;
+}
+
+@media screen and (min-width: 1055px) {
+
+    #about-us {
+        position: relative;
+        padding: 54px 82px 148px;
+        max-width: 1054px;
+        max-height: 708px;
+        margin: 0 auto;
+    }
+
+    #about-us img {
+        width: 75.751%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 984px) {
+
+    #our-history h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    #our-history p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+}
+
+@media only screen and (max-width: 916px) {
+
+    #our-history h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    #our-history p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #our-history button {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 846px) {
+
+    #our-history h1 {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    #our-history p {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    #our-history button {
+        font-size: 11px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 777px) {
+
+    #our-history h1 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    #our-history p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    #our-history button {
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 708px) {
+
+    #our-history h1 {
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    #our-history p {
+        font-size: 9px;
+        font-weight: 400;
+    }
+
+    #our-history button {
+        font-size: 9px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+
+    #our-history h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    #our-history p {
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    #our-history button {
+        font-size: 8px;
+        font-weight: 600;
+    }
+}
+
+
+@media only screen and (max-width: 578px) {
+
+    #our-history h1 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    #our-history p {
+        font-size: 7px;
+        font-weight: 400;
+    }
+
+    #our-history button {
+        font-size: 7px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 540px){
+
+    #about-us {
+        position: relative;
+        padding: 5.223% 7.934% 240px 8.046%;
+    }
+
+    #about-us img {
+        width: 100%;
+        height: auto;
+    }
+
+    #our-history {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10%;
+        width: 70%;
+        height: auto;
+        padding: 3.472% 4.815% 20px 2.778%;
+        background-color: #2947A9;
+        color: #fff;
+        box-shadow: 0px 14.6346px 17.5616px -2.92693px rgba(17, 24, 39, 0.1), 0px 5.85386px 5.85386px -2.92693px rgba(17, 24, 39, 0.04);
+        border-radius: 2px;
+    }
+
+    #our-history h1 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    #our-history p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #our-history button {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    #our-history p:first-of-type {
+        margin-bottom: 8px;
+    }
+    
+    #our-history p:last-of-type {
+        margin-bottom: 15px;
+    }
 }

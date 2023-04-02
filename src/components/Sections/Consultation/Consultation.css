@@ -31,3 +31,22 @@
     border: 1px solid #fff;
     color: #fff;
 }
+
+@media screen and (max-width: 480px) {
+    #consultation {
+        flex-direction: column;
+        padding: 73px 30px 73px 30px;
+    }
+
+    #consultation-info {
+        margin-bottom: 40px;
+    }
+
+    #consultation button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 172.5px;
+        height: 41px;
+    }
+}

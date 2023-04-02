@@ -125,3 +125,16 @@
     margin-left: 16px;
 }
 
+@media screen and (max-width: 1020px) {
+    #experience {
+        flex-direction: column;
+        height: 800px;
+        padding-top: 0;
+    }
+
+    #info {
+        width: 80%;
+        margin-top: 30px;
+    }
+}
+

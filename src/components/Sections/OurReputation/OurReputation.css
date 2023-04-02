@@ -7,6 +7,7 @@
 }
 
 #our-reputation h1 {
+    text-align: center;
     margin-bottom: 36px;
     font-size: 26px;
     font-weight: 700;
@@ -14,12 +15,15 @@
 
 #box-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 53px;
 }
 
 .best-boxes {
+    /* width: 20.766vw; */
     width: 214px;
-    height: 145px;
+    height: 20%;
     border: 1px solid #E0E3EB;
     padding: 15px 15px 29px 15px;
 }
@@ -39,4 +43,13 @@
     font-weight: 400;
     color: #858EAD;
 }
+
+/* @media screen and (min-width: 1054px) {
+    .best-boxes {
+        width: 214px;
+        height: 145px;
+        border: 1px solid #E0E3EB;
+        padding: 15px 15px 29px 15px;
+    }
+} */
 
