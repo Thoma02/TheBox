@@ -1,43 +1,29 @@
 import React from "react";
+import { KeyGenerator } from "../../../Utils/KeyGenerator";
 import "./Experience.css";
 
 export default function Experience() {
 
+    const notes = [
+        {id: 'clients', url: './Assets/Sections/Experience/clients.svg', number: 84, label: 'Happy Clients'},
+        {id: 'completed', url: './Assets/Sections/Experience/completed.svg', number: 123, label: 'Projects Completed'},
+        {id: 'win', url: './Assets/Sections/Experience/win.svg', number: 37, label: 'Awards Won'},
+        {id: 'business', url: './Assets/Sections/Experience/bussiness.svg', number: 30, label: 'Years in Business'},
+    ]
+
     return (
         <div id="experience">
             <div id="stats">
-                <div className="stats-boxes">
-                <img id="clients" src="./Assets/Sections/Experience/clients.svg" alt=""/>
-                <h2>84</h2>
-                <div className="stats-text">
-                    <div className="orange-line"></div>
-                    <p>Happy Clients</p>
-                </div>
-                </div>
-                <div className="stats-boxes">
-                <img id="completed" src="./Assets/Sections/Experience/completed.svg" alt=""/>
-                <h2>123</h2>
-                <div className="stats-text">
-                    <div className="orange-line"></div>
-                    <p>Projects Completed</p>
-                </div>
-                </div>
-                <div className="stats-boxes">
-                <img id="win" src="./Assets/Sections/Experience/win.svg" alt=""/>
-                <h2>37</h2>
-                <div className="stats-text">
-                    <div className="orange-line"></div>
-                    <p>Awards Win</p>
-                </div>
-                </div>
-                <div className="stats-boxes">
-                <img id="business" src="./Assets/Sections/Experience/bussiness.svg" alt=""/>
-                <h2>30</h2>
-                <div className="stats-text">
-                    <div className="orange-line"></div>
-                    <p>Years in Business</p>
-                </div>
-                </div>
+                {notes.map((note) => (
+                    <div className="stats-boxes" key={KeyGenerator()}>
+                        <img id={note.id} src={note.url} alt={note.label}/>
+                        <h2>{note.number}</h2>
+                        <div className="stats-text">
+                            <div className="orange-line"></div>
+                            <p>{note.label}</p>
+                        </div>
+                    </div>
+                ))}
             </div>
             <div id="info">
                 <h1>30 Years Experience</h1>

@@ -126,6 +126,7 @@
 }
 
 @media screen and (max-width: 1020px) {
+
     #experience {
         flex-direction: column;
         height: 800px;
@@ -138,3 +139,168 @@
     }
 }
 
+@media screen and (max-width: 680px) {
+    
+    #experience {
+        flex-direction: column;
+        height: 800px;
+        padding: 30px;
+    }
+
+    #info {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    #stats {
+        width: 100%;
+        margin-right: -20%;
+    }
+
+    .stats-boxes:nth-child(1) {
+        position: absolute;
+        right: 76px;
+        top: 80px;
+        width: 44%;
+        z-index: 2;
+    }
+    
+    .stats-boxes:nth-child(2) {
+        position: absolute;
+        top: 149px;
+        left: -27px;
+        width: 56.4%;
+    }
+    
+    .stats-boxes:nth-child(3) {
+        position: absolute;
+        top: 270px;
+        right: 120px;
+        width: 42.8%;
+        height: 114px;
+        z-index: 2;
+    }
+    
+    .stats-boxes:nth-child(4) {
+        position: absolute;
+        top: 333px;;
+        width: 51.6%;
+    }
+    
+    .stats-boxes h2 {
+        font-size: 48px;
+        font-weight: 600;
+        color: #292E3D;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    #experience {
+        flex-direction: column;
+        height: 800px;
+        padding: 30px;
+    }
+
+    #info {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    #stats {
+        width: 100%;
+        margin-right: -20%;
+    }
+
+    .stats-boxes:nth-child(1) {
+        position: absolute;
+        right: 36px;
+        top: 80px;
+        width: 177px;
+        z-index: 2;
+    }
+    
+    .stats-boxes:nth-child(2) {
+        position: absolute;
+        top: 149px;
+        left: -27px;
+        width: 227px;
+    }
+    
+    .stats-boxes:nth-child(3) {
+        position: absolute;
+        top: 270px;
+        right: 60px;
+        width: 172px;
+        height: 114px;
+        z-index: 2;
+    }
+    
+    .stats-boxes:nth-child(4) {
+        position: absolute;
+        top: 333px;;
+        width: 208px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    #experience {
+        flex-direction: column;
+        height: 840px;
+        padding: 30px;
+    }
+
+    #info {
+        width: 90%;
+        padding-top: 60px;
+    }
+
+    #stats {
+        width: 100%;
+        margin-right: -20%;
+    }
+
+    .stats-boxes {
+        padding-bottom: 10px;
+    }
+
+    .stats-boxes:nth-child(1) {
+        position: absolute;
+        right: 36px;
+        top: 80px;
+        width: 147px;
+        z-index: 2;
+    }
+    
+    .stats-boxes:nth-child(2) {
+        position: absolute;
+        top: 149px;
+        left: -27px;
+        width: 197px;
+    }
+    
+    .stats-boxes:nth-child(3) {
+        position: absolute;
+        top: 240px;
+        right: 60px;
+        width: 142px;
+        height: 105px;
+        z-index: 2;
+    }
+    
+    .stats-boxes:nth-child(4) {
+        position: absolute;
+        top: 333px;;
+        width: 178px;
+        left: -20px;
+    }
+    
+    .stats-boxes h2 {
+        font-size: 40px;
+    }
+
+    .stats-boxes p {
+        font-size: 18px;
+    }
+}
